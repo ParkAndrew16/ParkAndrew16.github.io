@@ -1,17 +1,14 @@
 body {
-    background: #38a1dd;
+  background: #ffed00;
 }
-
 #div1 {
-    font-size:35px;
+  font-size: 35px;
 }
-
 #div2 {
-    height: 300px;
-    width: 300px;
-    overflow:hidden;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
 }
-
 #div2 img {
-    height: 100%;
+  height: 100%;
 }
