@@ -8,7 +8,16 @@ body {
   height: 300px;
   width: 300px;
   overflow: hidden;
+  opacity: 0.5;
+  transition-property: height, width;
+  transition-duration: 3s;
+  transition-delay: 3s;
 }
 #div2 img {
   height: 100%;
+}
+#div2:hover {
+  height: 500px;
+  width: 500px;
+  opacity: 1;
 }
